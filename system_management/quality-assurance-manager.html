@@ -581,7 +581,36 @@
                                 </div>
                             </div>
                             <!-- Close category -->
+                            <!-- Open category -->
+                            <div class="row col-xl-12 col-lg-12 d-block">
+                                <div class="card shadow mb-4">
+                                    <div class="card-header py-3">
+                                        <h6 class="m-0 font-weight-bold text-primary">
+                                            View statistics
+                                        </h6>
+                                    </div>
+                                    <div class="cart-body">
+                                        <!-- Bar Chart -->
+                                        <div class="chart-bar">
+                                            <canvas id="myBarChart"></canvas>
+                                        </div>
+                                        <hr><span class="ml-5"> Number of ideas per department/year</p>
+                                            <!-- Please view file js/demo/chart-bar-demo.js -->
+                                    </div>
 
+                                    <div class="card-body">
+                                        <!-- Area Chart -->
+                                        <div class="chart-area">
+                                            <canvas id="myAreaChart"></canvas>
+                                        </div>
+                                        <hr><span class="ml-5">Numbers of contributors per
+                                            departments</span>
+                                        <!-- Please view file /js/demo/chart-area-demo.js  -->
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!-- Close category -->
                         </div>
                         <!-- Close right sidebar -->
                     </div>
@@ -641,6 +670,13 @@
 
     <!-- Custom scripts for all pages-->
     <script src="js/sb-admin-2.min.js"></script>
+
+    <!-- Page level plugins -->
+    <script src="vendor/chart.js/Chart.min.js"></script>
+
+    <!-- Page level custom scripts -->
+    <script src="js/demo/chart-area-demo.js"></script>
+    <script src="js/demo/chart-bar-demo.js"></script>
 
 </body>
 
