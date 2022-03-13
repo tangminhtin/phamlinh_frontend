@@ -106,3 +106,6 @@ p{
     float: right;
     cursor: pointer;
 }
+.form-control {
+    border-radius: 25px;
+}
