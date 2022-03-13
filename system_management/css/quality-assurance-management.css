@@ -1,6 +1,4 @@
-.custom-row{
-    width: 60%;
-}
+
 body {
     background-color: #eee
 }
@@ -42,7 +40,11 @@ body {
 }
 
 .comment-text {
+    text-align: justify;
     font-size: 13px
+}
+p{
+    text-align: justify;
 }
 
 .wish {
@@ -52,4 +54,8 @@ body {
 .user-feed {
     font-size: 14px;
     margin-top: 12px
+}
+
+.card-container{
+    padding: 0rem !important;
 }
