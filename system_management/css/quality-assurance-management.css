@@ -95,3 +95,14 @@ p{
     -o-animation: up-right 1s infinite;
     animation: up-right 1s infinite;
 }
+
+.add-new{
+    text-align: center;
+}
+.card-custom{
+    padding: 0rem !important;
+}
+.dele-cate{
+    float: right;
+    cursor: pointer;
+}
