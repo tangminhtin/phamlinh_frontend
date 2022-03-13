@@ -1,4 +1,3 @@
-
 body {
     background-color: #eee
 }
@@ -43,7 +42,8 @@ body {
     text-align: justify;
     font-size: 13px
 }
-p{
+
+p {
     text-align: justify;
 }
 
@@ -56,6 +56,6 @@ p{
     margin-top: 12px
 }
 
-.card-container{
+.card-container {
     padding: 0rem !important;
 }
