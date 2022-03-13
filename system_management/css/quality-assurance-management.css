@@ -107,5 +107,5 @@ p{
     cursor: pointer;
 }
 .form-control {
-    border-radius: 25px;
+    border-radius: 25px !important;
 }
